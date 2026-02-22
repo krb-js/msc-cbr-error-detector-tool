@@ -1,0 +1,15 @@
+.root {
+    -fx-base: #ffffff;
+    -fx-background: #ffffff;
+}
+
+.text-area, .table-view, .split-pane, .label {
+    -fx-text-fill: #111111;
+}
+
+.table-row-cell:clean {
+    -fx-background-color: rgba(0, 180, 0, 0.12);
+}
+.table-row-cell:error {
+    -fx-background-color: rgba(220, 0, 0, 0.12);
+}

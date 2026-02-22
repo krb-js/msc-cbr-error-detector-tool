@@ -1,0 +1,82 @@
+/* style.css */
+
+/* VBox and HBox spacing */
+.root {
+    -fx-background-color: #f5f5f5; /* light grey background */
+    -fx-padding: 15;
+}
+
+/* Labels */
+.label {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Header label */
+.label .header {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a1a1a;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #009CEB;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 5 15 5 15;
+}
+
+.button:disabled {
+    -fx-background-color: #b5b5b5;
+}
+
+/* TableView */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-table-cell-border-color: #e0e0e0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to bottom, #e0e0e0, #f9f9f9);
+}
+
+.table-view .table-row-cell:filled:selected,
+.table-view .table-row-cell:focused:selected {
+    -fx-background-color: #b3d9ff;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #fafafa;
+}
+
+.table-view .table-row-cell:even {
+    -fx-background-color: #ffffff;
+}
+
+/* TextAreas */
+.text-area {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-font-family: "Consolas", monospace;
+    -fx-font-size: 12px;
+}
+
+/* ProgressBar */
+.progress-bar {
+    -fx-accent: #4CAF50; /* green progress */
+    -fx-background-color: #d6d6d6;
+    -fx-border-radius: 5;
+}
+
+/* Tooltips */
+.tooltip {
+    -fx-font-size: 12px;
+}

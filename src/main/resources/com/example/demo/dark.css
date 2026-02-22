@@ -1,0 +1,25 @@
+.root {
+    -fx-base: #1e1e1e;
+    -fx-background: #1e1e1e;
+}
+
+.label {
+    -fx-text-fill: #e6e6e6;
+}
+
+.text-area {
+    -fx-control-inner-background: #2a2a2a;
+    -fx-text-fill: #e6e6e6;
+}
+
+.table-view {
+    -fx-base: #2a2a2a;
+    -fx-control-inner-background: #2a2a2a;
+}
+
+.table-row-cell:clean {
+    -fx-background-color: rgba(0, 180, 0, 0.20);
+}
+.table-row-cell:error {
+    -fx-background-color: rgba(220, 0, 0, 0.20);
+}
