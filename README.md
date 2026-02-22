@@ -64,8 +64,7 @@ What used to take hours now takes seconds.
 
 
 👤 Author
-Jon Kirby Josue
-EDI S&D Associate
+krb.js
 
 📄 License
 Internal tool / Portfolio showcase.
