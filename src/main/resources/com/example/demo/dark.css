@@ -23,3 +23,7 @@
 .table-row-cell:error {
     -fx-background-color: rgba(220, 0, 0, 0.20);
 }
+
+.button:hover {
+    -fx-opacity: 0.92;
+}

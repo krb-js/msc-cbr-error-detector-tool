@@ -20,7 +20,7 @@ public class HelloApplication extends Application {
         controller.setHostServices(getHostServices());
 
         // Create scene with larger size
-        Scene scene = new Scene(root, 1000, 650);
+        Scene scene = new Scene(root, 1100, 800);
 
         // Apply stylesheet
         scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
